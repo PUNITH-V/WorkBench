@@ -1,4 +1,7 @@
 import os 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class ConfigError(Exception):
@@ -24,7 +27,8 @@ def get_model() -> str:
 
     model = os.getenv(
         "GROQ_MODEL",
-        "llama-3.3-70b-versatile"
+        "qwen/qwen3.6-27b",
+        
     )
 
     if not model.strip():
