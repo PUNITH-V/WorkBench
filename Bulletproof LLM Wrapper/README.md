@@ -44,9 +44,9 @@ flowchart TD
     EXC["exceptions.py"] -.-> LLM
     EXC --- EXC1["Application-level errors"]
 
-    style stroke:#1e88e5
-    style stroke:#fb8c00
-    style stroke:#d81b60
+    style GROQ stroke:#1e88e5
+    style RETRY stroke:#fb8c00
+    style EXC stroke:#d81b60
 ```
 
 ---
@@ -351,9 +351,9 @@ flowchart TD
     I -- "Success" --> E
     I -- "Failure" --> J["❌ Final Error"]
 
-    style E fill:#e8f5e9,stroke:#43a047
-    style J fill:#fce4ec,stroke:#d81b60
-    style G fill:#fff3e0,stroke:#fb8c00
+    style E stroke:#43a047
+    style J stroke:#d81b60
+    style G stroke:#fb8c00
 ```
 
 This provides a foundation for making LLM-powered applications more reliable.
