@@ -10,11 +10,11 @@ This repository is a **workbench** for building, experimenting, and learning thr
 
 | Project | Description |
 | --- | --- |
-| **Prompt Chaining** | Experiments with prompt chaining techniques. |
-| **Structured Extraction** | Extracting structured information from unstructured data. |
-| **Web Scraping + LLM Extraction** | Combining web scraping with LLM-based information extraction. |
-| **Conversation Memory** | Exploring stateful and stateless conversation memory with LLM applications. |
-
+| [Prompt Chaining](./Prompt%20Chaining) | Experiments with prompt chaining techniques. |
+| [Structured Extraction](./Structured%20Extraction) | Extracting structured information from unstructured data. |
+| [Web Scraping + LLM Extraction](./Web%20Scraping%20+%20LLM%20Extraction) | Combining web scraping with LLM-based information extraction. |
+| [Conversation Memory](./conversation_memory) | Exploring stateful and stateless conversation memory with LLM applications. |
+| [Bulletproof LLM Wrapper](./Bulletproof%20LLM%20Wrapper) | A resilient Groq API wrapper with retries, exponential backoff, timeouts, and custom exceptions. |
 ---
 
 ## 📖 About
