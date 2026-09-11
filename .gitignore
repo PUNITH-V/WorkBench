@@ -14,3 +14,11 @@ __pycache__/
 # IDE files
 .vscode/
 .idea/
+
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.egg-info/
+
