@@ -38,10 +38,10 @@ flowchart TD
     MR --> REPORT["📦 Pydantic Report"]
     REPORT --> JSON["💾 JSON Output"]
 
-    style U fill:#e3f2fd,stroke:#1e88e5
-    style MEM fill:#ede7f6,stroke:#5e35b1
-    style MR fill:#fff3e0,stroke:#fb8c00
-    style JSON fill:#e8f5e9,stroke:#43a047
+    style U stroke:#1e88e5
+    style MEM stroke:#5e35b1
+    style MR stroke:#fb8c00
+    style JSON stroke:#43a047
 ```
 
 ---
