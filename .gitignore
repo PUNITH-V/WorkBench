@@ -22,3 +22,7 @@ __pycache__/
 .env
 *.egg-info/
 
+# Sift generated files
+Sift/data/
+Sift/output/
+
