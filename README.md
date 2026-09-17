@@ -15,6 +15,7 @@ This repository is a **workbench** for building, experimenting, and learning thr
 | 3 | [Web Scraping + LLM Extraction](./Web%20Scraping%20+%20LLM%20Extraction) | Combining web scraping with LLM-based information extraction. |
 | 4 | [Conversation Memory](./conversation_memory) | Exploring stateful and stateless conversation memory with LLM applications. |
 | 5 | [Bulletproof LLM Wrapper](./Bulletproof%20LLM%20Wrapper) | A resilient Groq API wrapper with retries, exponential backoff, timeouts, and custom exceptions. |
+| 6 | [CAP Sift](./Sift) | A resilient CLI research assistant — scrapes Hacker News, summarizes with Map-Reduce, and validates output with Pydantic. |
 
 ---
 
