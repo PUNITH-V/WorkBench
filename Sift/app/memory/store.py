@@ -53,3 +53,13 @@ class MemoryStore:
             """, (limit,)).fetchall()
 
         return rows
+    def latest_user(self):
+        with self._connect() as conn:
+            row = conn.execute("""
+                SELECT user_name
+                FROM memories
+                ORDER BY id DESC
+                LIMIT 1
+            """).fetchone()
+
+        return row[0] if row else None

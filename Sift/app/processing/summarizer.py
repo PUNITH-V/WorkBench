@@ -25,4 +25,9 @@ Article section:
 {text}
 """
 
-    return llm.generate(prompt)
+    summary = llm.generate(prompt)
+
+    if not summary.strip():
+        raise ValueError("LLM returned an empty summary")
+
+    return summary.strip()

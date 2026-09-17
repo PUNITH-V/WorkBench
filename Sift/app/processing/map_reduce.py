@@ -42,4 +42,8 @@ Section summaries:
 {combined_summaries}
 """
 
-    return llm.generate(reduce_prompt)
+    summary = llm.generate(reduce_prompt)
+
+    if not summary.strip():
+        raise ValueError("LLM returned an empty final summary")
+    return summary.strip()
