@@ -1,4 +1,4 @@
-openai
+groq
 python-dotenv
 tenacity
 pytest
