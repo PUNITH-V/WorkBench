@@ -9,4 +9,4 @@ def chunk_document(text:str) -> list[str]:
         separators= ["\n\n","\n","."," ",""]
     )
 
-    return splitter.split_test(text)
+    return splitter.split_text(text)

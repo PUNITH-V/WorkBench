@@ -2,6 +2,7 @@
 venv/
 .venv/
 env/
+**/venv/
 
 # Environment variables
 .env
@@ -25,4 +26,8 @@ __pycache__/
 # Sift generated files
 Sift/data/
 Sift/output/
+
+# VectorForge local databases
+Modular Document Ingestion & Multi-Vector Database Pipeline/chroma_data/
+Modular Document Ingestion & Multi-Vector Database Pipeline/qdrant_data/
 
