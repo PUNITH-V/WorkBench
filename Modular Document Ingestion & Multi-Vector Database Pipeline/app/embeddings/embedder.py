@@ -1,9 +1,9 @@
 from sentence_transformers import SentenceTransformer
-from app.config.settings import Embedding_model
+from app.config.settings import EMBEDDING_MODEL
 
 class Embedder:
     def __init__(self):
-        self.model = SentenceTransformer(Embedding_model)
+        self.model = SentenceTransformer(EMBEDDING_MODEL)
     def embed(self, texts: list[str]) -> list[list[float]]:
         embeddings = self.model.encode(
             texts,

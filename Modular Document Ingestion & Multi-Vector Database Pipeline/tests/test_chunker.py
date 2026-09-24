@@ -1,3 +1,15 @@
+from app.chunking.chunker import chunk_document
+
+
+def test_chunk_document_returns_chunks():
+
+    text = "This is a test document. " * 100
+
+    chunks = chunk_document(text)
+
+    assert len(chunks) > 0
+    assert all(isinstance(chunk, str) for chunk in chunks)
+    assert all(chunk.strip() for chunk in chunks)
 import re
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
