@@ -16,6 +16,7 @@ This repository is a **workbench** for building, experimenting, and learning thr
 | 4 | [Conversation Memory](./conversation_memory) | Exploring stateful and stateless conversation memory with LLM applications. |
 | 5 | [Bulletproof LLM Wrapper](./Bulletproof%20LLM%20Wrapper) | A resilient Groq API wrapper with retries, exponential backoff, timeouts, and custom exceptions. |
 | 6 | [CAP Sift](./Sift) | A resilient CLI research assistant — scrapes Hacker News, summarizes with Map-Reduce, and validates output with Pydantic. |
+| 7 | [VectorForge](./Modular%20Document%20Ingestion%20%26%20Multi-Vector%20Database%20Pipeline) | A modular RAG foundation — interchangeable vector-store backends (Chroma, Qdrant, Pinecone) behind a common interface. |
 
 ---
 
