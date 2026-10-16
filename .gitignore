@@ -40,4 +40,5 @@ __pycache__/
 .pytest_cache/
 chroma_data/
 "@ | Set-Content -Encoding utf8 ".\Vision Data Extractor\.gitignore"
+Vision Data Extractor/output/report.json
 
