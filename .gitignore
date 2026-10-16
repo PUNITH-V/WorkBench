@@ -31,3 +31,13 @@ Sift/output/
 Modular Document Ingestion & Multi-Vector Database Pipeline/chroma_data/
 Modular Document Ingestion & Multi-Vector Database Pipeline/qdrant_data/
 
+
+@"
+.env
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+chroma_data/
+"@ | Set-Content -Encoding utf8 ".\Vision Data Extractor\.gitignore"
+
