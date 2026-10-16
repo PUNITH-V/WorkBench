@@ -1,0 +1,22 @@
+{
+  "image_description": "An illustration of Spider-Man wearing a Santa hat with white fur trim and a pink bow.",
+  "extracted_data": [
+    {
+      "label": "Character",
+      "value": "Spider-Man"
+    },
+    {
+      "label": "Accessory",
+      "value": "Santa hat"
+    },
+    {
+      "label": "Hat Detail",
+      "value": "Pink bow"
+    },
+    {
+      "label": "Watermark",
+      "value": "@siqwsxx"
+    }
+  ],
+  "confidence": "High"
+}

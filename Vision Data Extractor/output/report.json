@@ -1,0 +1,10 @@
+{
+  "image_description": "The GitHub logo featuring a black circular icon with a white stylized cat silhouette (Octocat) and the text \"GitHub\" in bold black font on a light beige background.",
+  "extracted_data": [
+    {
+      "label": "text",
+      "value": "GitHub"
+    }
+  ],
+  "confidence": "High"
+}
